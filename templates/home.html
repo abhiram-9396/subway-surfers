@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <title>SubWay surfers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Gaming With Hand Gestures</span>
+    </nav>
+
+   
+    <center>
+        <h3 class="m-4">In This project we have developed a technique where we can be able to play the subway surfers game using our hands</h3>
+    
+        <h4 class="m-4">The instructions to play the game are as follows:</h4>
+        <ul>
+            <li>The link to the game is provided below click on that link</li>
+            <li>After the game is loaded click on "PRESS TO PLAY"</li>
+            <li>If you want the character to move UP show ONE finger</li>
+            <li>If you want the character to move DOWN show TWO fingers</li>
+            <li>If you want the character to move RIGHT show THREE fingers</li>
+            <li>If you want the character to move LEFT show FOUR fingers</li>
+        </ul>
+    </center>
+
+    <center>
+        <div>
+            <a  class ="btn btn-primary" href="https://poki.com/en/g/subway-surfers" target="_blank">Play Game</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8  offset-lg-2">
+                    <h3 class="mt-5">Live Streaming</h3>
+                    <img src="{{ url_for('video_feed') }}" width="50%">
+                </div>
+            </div>
+        </div>
+    </center>
+    
+</body>
+</html>
