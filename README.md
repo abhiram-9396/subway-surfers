@@ -1,6 +1,6 @@
 # 🏃 Subway Surfers Game Using Hand Gestures
 
-An innovative undergraduate project enabling hands-free gameplay of **Subway Surfers** using **hand gestures**, built with **Python** and **OpenCV**. This project showcases real-time palm detection and hand landmarking techniques to control the game seamlessly without physical controllers.
+An innovative project enabling hands-free gameplay of **Subway Surfers** using **hand gestures**, built with **Python** and **OpenCV**. This project showcases real-time palm detection and hand landmarking techniques to control the game seamlessly without physical controllers.
 
 ## 🚀 Features
 
